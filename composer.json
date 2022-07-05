@@ -1,0 +1,26 @@
+{
+    "name": "viraddict/game",
+    "autoload": {
+        "psr-4": {
+            "Game\\App\\": "src/app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+          "Game\\App\\Tests\\": "tests/"
+        }
+      },
+    "authors": [
+        {
+            "name": "D. Malyshev",
+            "email": "viraddict@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/http-foundation": "^5.4",
+        "predis/predis": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.5"
+    }
+}
