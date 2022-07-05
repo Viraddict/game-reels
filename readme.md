@@ -10,4 +10,5 @@
 
 ## TODO
 - More test cases
-- Right align of combinations in Game Service
+- Right direction for checking combinations in Game Service
+- DTO 
